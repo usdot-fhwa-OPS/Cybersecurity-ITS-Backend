@@ -1,3 +1,17 @@
+# Copyright (C) 2024 LEIDOS.
+#
+# Licensed under the Apache License, Version 2.0 (the "License"); you may not
+# use this file except in compliance with the License. You may obtain a copy of
+# the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+# WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+# License for the specific language governing permissions and limitations under
+# the License.
+
 # In order for this lambda function to operate properly, it has been given the iamRole "its_S3 Role" which allows it to 
 # read and write objects from/to AWS S3 Bucket "itsconfigurations". This role also gives KMS permissions to encrypt/decrypt data from S3. This role should be
 # assigned to any lambda function that interacts with AWS S3. 
